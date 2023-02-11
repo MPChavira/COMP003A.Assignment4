@@ -13,6 +13,7 @@ namespace COMP003A.Assignment4
         {
             Console.WriteLine("".PadRight(50, '*'));
             Console.WriteLine("for-loop statement");
+            Console.WriteLine("Output a right triangle based on user input");
             Console.WriteLine("".PadRight(50, '*'));
 
             Console.WriteLine("Enter a positive whole number:");
@@ -21,12 +22,15 @@ namespace COMP003A.Assignment4
 
             for (int i = 0; i <= limit; i++)
             {
-                Console.WriteLine(output += "#");
+                Console.WriteLine(output);
+                output += "#";
             }
+            
 
             Console.WriteLine("\n");
             Console.WriteLine("".PadRight(50, '*'));
             Console.WriteLine("foreach statement");
+            Console.WriteLine("Output all of the friends in array");
             Console.WriteLine("".PadRight(50, '*'));
 
             string[] friends = new string[] { "Rachel", "Joey", "Chandler", "Ross", "Monica", "Phoebe" };
@@ -39,6 +43,7 @@ namespace COMP003A.Assignment4
             Console.WriteLine("\n");
             Console.WriteLine("".PadRight(50, '*'));
             Console.WriteLine("do-while statement");
+            Console.WriteLine("Output 0-50 by 5s");
             Console.WriteLine("".PadRight(50, '*'));
 
             int counter = 0;
@@ -51,6 +56,10 @@ namespace COMP003A.Assignment4
             Console.WriteLine("\n");
             Console.WriteLine("".PadRight(50, '*'));
             Console.WriteLine("while statement");
+            Console.WriteLine("Output 1-20");
+            Console.WriteLine("If the number is divisble by 2, output Foo");
+            Console.WriteLine("If the number is divisble by 5, output Bar");
+            Console.WriteLine("If the number is divisble by 2 & 5, output FooBar");
             Console.WriteLine("".PadRight(50, '*'));
 
             int counter2 = 1;
